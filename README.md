@@ -1,12 +1,13 @@
 # codethecode
 This is our project repository.
 
-This is Group W04
-The members being:
+## This is Group W04
 
 
--Aryan Mathur                122201017 
 
--Priyanshu Pandey
-
--Ashish Kumar Singh
+## The Team
+| Members                                | Roll No.                     |
+|-----------------------------------------------------------------------|
+|             Aryan Mathur               |        122201017             |
+|             Priyanshu Pandey           |                              |
+|             AShish Kumar Singh         |                              |
