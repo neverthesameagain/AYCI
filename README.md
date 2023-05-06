@@ -7,7 +7,7 @@ This is our project repository.
 
 ## The Team
 | Members                                | Roll No.                     |
-|-----------------------------------------------------------------------|
+|----------------------------------------|------------------------------|
 |             Aryan Mathur               |        122201017             |
 |             Priyanshu Pandey           |                              |
 |             AShish Kumar Singh         |                              |
