@@ -3,3 +3,8 @@
 We look forward to make a user interactive Chat system with a bot incorporated in it.
 
 The prime theme is that, momentarily as on the frequency, the user allows, the device would capture a picture and analyse his sentiments based on which set the chat theme, and if its in a bad phase the app will help the user in a better way!
+
+
+##10 May
+update on objective:
+we now have a chat sytem where in we tend to start the app by image recognition and then use the texts of user to determine sentiments, set the chat theme accordingly.
