@@ -39,7 +39,7 @@ class App(customtkinter.CTk):
         self.logo_label.grid(row=0, column=0, padx=20, pady=(20, 5))
         self.logo_label = customtkinter.CTkLabel(self.sidebar_frame, text="Chat", font=customtkinter.CTkFont(size=20, weight="bold"))
         self.logo_label.grid(row=1, column=0, padx=20, pady=(5, 10))
-        self.sidebar_button_1 = customtkinter.CTkButton(self.sidebar_frame, text='Take me to group chats')
+        self.sidebar_button_1 = customtkinter.CTkButton(self.sidebar_frame, text='I am missing Ayci, take me to her')
         self.sidebar_button_1.grid(row=1, column=0, padx=20, pady=10)
         self.sidebar_button_2 = customtkinter.CTkButton(self.sidebar_frame,text='Take me to Private Messaging')
         self.sidebar_button_2.grid(row=2, column=0, padx=20, pady=10)
@@ -55,7 +55,7 @@ class App(customtkinter.CTk):
         self.scaling_optionemenu.grid(row=8, column=0, padx=20, pady=(10, 20))
         # create textbox
         self.textbox = customtkinter.CTkTextbox(self, width=25, height= 15)
-        self.textbox.insert("0.0", "AYCI\n"+"Your Personal Bot it is! \n\n" + "Hey There! I am As You Call It ( AYCI ) your personal Bot built by Aryan Mathur\n~To see what I can do, try asking me maybe?\n~To Leave the chat anytime, I won't mind, unlike your long lost crush, I don't have issues in letting people go." )
+        self.textbox.insert("0.0", "AYCI\n"+"Your Personal Bot it is! \n\n" + "Oh Hey you made it to the ChatRoom! Grab a packet of lays and get into some human conversations!" )
         self.textbox.grid(row=0, column=1, padx=(20, 0), pady=(10, 0), sticky="nsew")
         self.entry = customtkinter.CTkEntry(self, placeholder_text="How Can I Help You?")
         self.entry.grid(row=3, column=1, columnspan=2, padx=(20, 0), pady=(20, 20), sticky="nsew")
@@ -64,13 +64,13 @@ class App(customtkinter.CTk):
         self.main_button_1.grid(row=3, column=3, padx=(20, 20), pady=(20, 20), sticky="nsew")
 
 
-        
+        r
 
         # create tabview
         self.tabview = customtkinter.CTkTabview(self, width=250)
         self.tabview.grid(row=0, column=2, padx=(20, 0), pady=(20, 0), sticky="nsew")
         self.tabview.add("Important Updates!")
-        self.tabview.add("key Features!")
+        srelf.tabview.add("key Features!")
         self.tabview.add("Working on")
         self.tabview.tab("Important Updates!").grid_columnconfigure(0, weight=1)  # configure grid of individual tabs
         self.tabview.tab("key Features!").grid_columnconfigure(0, weight=1)
