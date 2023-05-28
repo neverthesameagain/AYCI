@@ -2,4 +2,11 @@ https://www.geeksforgeeks.org/simple-chat-room-using-python/
 https://www.thepythoncode.com/article/make-a-chat-room-application-in-python
 
 https://www.geeksforgeeks.org/gui-chat-application-using-tkinter-in-python/
-hello
+Libraries under use:
+customtkinter
+os
+tkinter
+tensorflow
+face_recognition
+speech_recognition
+
