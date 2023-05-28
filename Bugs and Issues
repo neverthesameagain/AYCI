@@ -2,3 +2,4 @@
 #1 RESOLVED
 
 #2 customtkinter works in py3.10 and not 3.11 but imagerec works in py3.11 but not in py 3.10
+#2 resolved custom tkinter does work in python 3.11
