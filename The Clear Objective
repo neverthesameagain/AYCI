@@ -11,3 +11,11 @@ we now have a chat sytem where in we tend to start the app by image recognition 
 
 ##12 May
 update on objectibe, no more sentiment analysis
+
+
+#Almost Final Objective Version:
+
+AN App that is in the exe form, opens by clicking an icon, face recognition recognises you and then takes you to your profile else opens a dialouge box to create new one
+then comes up a new window with home page called AYCI it6 is our chatbot
+there are options to change theme, ui scaling and voice input/output modes. 
+There are also options to go to the chat room or to personal Chats.
