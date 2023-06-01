@@ -9,5 +9,12 @@ This is our project repository.
 | Members                                | Roll No.                     |
 |----------------------------------------|------------------------------|
 |             Aryan Mathur               |        122201017             |
-|             Priyanshu Pandey           |                              |
-|             AShish Kumar Singh         |                              |
+|             Priyanshu Pandey           |        112201020             |
+|             AShish Kumar Singh         |        102201020             |
+
+
+
+Ashish;
+Recog.py
+server
+
