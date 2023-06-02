@@ -4,6 +4,7 @@ import customtkinter
 import speech_recognition as sr
 import os
 import webbrowser
+import random
 
 
 customtkinter.set_appearance_mode("System")  # Modes: "System" (standard), "Dark", "Light"
@@ -27,11 +28,23 @@ class App(customtkinter.CTk):
             
             for greets in greet:
                 if greets in querry.lower():
-                    switch = customtkinter.CTkLabel(master=self.scrollable_frame, text="~>> OHH hi! It's great to see you here! ")
+                    o=["Ahoy You surfer!, How's Your Day?","How You Doin? :D","Namaste! Aaj aapki Sahaayta kaise ki jaaye?","Bonjour, comment ca Va?"]
+                    outr=random.choice(o) 
+                    switch = customtkinter.CTkLabel(master=self.scrollable_frame, text=f"->>             {outr}")
+                    switch.grid( column=0, padx=10)
+                    say(outr)
+                    self.scrollable_frame_switches.append(f"->>             {outr}")
+                     
+            intros=["who are you?","what is your name?","what can you do","introduce yourself"]        
+            for intro in intros:
+                if intro in querry.lower():
+                    o=["Ahoy You surfer! Hey There! I am As You Call It ( AYCI ) your personal Bot built by Aryan Mathur\n~To see what I can do, try asking me maybe?\n~To Leave the chat anytime, I won't mind, unlike your long lost crush, I don't have issues in letting people go., How's Your Day?","Hey There! I am As You Call It ( AYCI ) your personal Bot built by Aryan Mathur\n~To see what I can do, try asking me maybe?\n~To Leave the chat anytime, I won't mind, unlike your long lost crush, I don't have issues in letting people go. How You Doin? :D","Namaste! Aaj aapki Sahaayta kaise ki jaaye?","Bonjour, comment ca Va? Hey There! I am As You Call It ( AYCI ) your personal Bot built by Aryan Mathur\n~To see what I can do, try asking me maybe?\n~To Leave the chat anytime, I won't mind, unlike your long lost crush, I don't have issues in letting people go."]
+                    outr=random.choice(o)
+                    switch = customtkinter.CTkLabel(master=self.scrollable_frame, text=f"->>             {outr}")
                     switch.grid( column=0, padx=10)
                         
-                    say("OH hi! Its great to see you here!")
-                    self.scrollable_frame_switches.append("~>> OHH hi! It's great to see you here! ")
+                    say(outr)
+                    self.scrollable_frame_switches.append(f"->>             {outr}")
         
                 
 
@@ -49,10 +62,12 @@ class App(customtkinter.CTk):
             quit=['quit','goodbye']
             for quits in quit:
                 if quits in querry:
-                    siteaction="It was nice chatting with you! Hope to see you sometime soon!"
-                    switch = customtkinter.CTkLabel(master=self.scrollable_frame, text=siteaction)
-                    self.scrollable_frame_switches.append(siteaction)
-                    say("It was nice chatting with you! Hope to see you sometime soon!")
+                    o=["It was Nice talking to you! See ya again soon","Aapse Baat Karke Acchha laga! Bye!","Au ReVoir! Have A great day Ahead!"]
+                    outr=random.choice(o) 
+                    switch = customtkinter.CTkLabel(master=self.scrollable_frame, text=f"->>             {outr}")
+                    switch.grid( column=0, padx=10)
+                    say(outr)
+                    self.scrollable_frame_switches.append(f"->>             {outr}")
 
         
         
