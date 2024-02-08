@@ -10,7 +10,7 @@ This is our project repository.
 |----------------------------------------|------------------------------|
 |             Aryan Mathur               |        122201017             |
 |             Priyanshu Pandey           |        112201020             |
-|             AShish Kumar Singh         |        102201020             |
+
 
 
 
