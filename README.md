@@ -14,7 +14,6 @@ This is our project repository.
 
 
 
-Ashish;
 Recog.py
 server
 
